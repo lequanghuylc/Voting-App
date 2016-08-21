@@ -1,0 +1,55 @@
+body{
+  background-color: #f52;
+  padding-top:25px;
+}
+.login-notify {
+    margin-right: 5px;
+    font-style: italic;
+    color: red;
+}
+ul>li>a:hover{
+  cursor:pointer;
+}
+main{
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #F8F8F8;
+}
+.poll{
+  border: 2px dashed #f52;
+  margin-bottom: 20px;
+  font-size:1.2em;
+  font-weight: bold;
+  color: #f52;
+}
+
+.poll:hover{
+  background-color:#f52;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #f52;
+}
+.polldata{
+  background-color: #e0e0e0;
+  margin-bottom: 20px;
+  display: none;
+}
+.poll, .polldata{
+  padding: 20px;
+  border-radius: 4px;
+}
+.votepoll{
+  margin-bottom: 5px;
+}
+.votepoll:hover{
+  background-color: #fff;
+  cursor: pointer;
+}
+.chartbar{
+  background-color: #4C8EFA;
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s; 
+  transition: width 1s;
+  width:0%;
+  height:20px;
+}
