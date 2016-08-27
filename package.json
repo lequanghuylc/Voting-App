@@ -4,7 +4,7 @@
   "description": "Voting application built with Node + React",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
