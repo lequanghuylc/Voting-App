@@ -72,7 +72,8 @@ var Vote = React.createClass({
       e.preventDefault();
           this.setState({
             notLoggedin: true,
-            showForm: true
+            showForm: true,
+            loginMessage: 'You just logged out'
           });
           //clear cookie
           document.cookie.split(";").forEach(function(c) { document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); });  
