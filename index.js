@@ -13,7 +13,6 @@ var addVotePoint = require("./model/addVotePoint");
 var addVoteOption = require("./model/addVoteOption");
 var getSinglePoll = require('./model/getSinglePoll');
 var getPollsFromUser = require('./model/getPollsFromUser');
-var removePoll = require('./model/removePoll');
 var deletePoll = require('./model/deletePoll');
 
 // handle post request
