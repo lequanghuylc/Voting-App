@@ -1,6 +1,6 @@
 var express = require("express");
 var bodyParser = require("body-parser");
-var ObjectId = require('mongodb').ObjectId;
+var ObjectId = require('mongodb').ObjectID;
 var app = express();
 
 // require model
@@ -133,5 +133,5 @@ app.post("/addVoteOption", function(req,res){
         res.send(docs);
     });
 });
-
-app.listen(8080);
+var port = process.env.PORT || 8080;
+app.listen(port);
